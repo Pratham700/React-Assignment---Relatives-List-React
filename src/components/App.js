@@ -7,10 +7,10 @@ class App extends Component {
         return(
             <div id="main">
                {/* Do not remove the main div */}
-               <ol key = "relativesList">
+               <ol key = "relativeList">
                    {
                 relList.map( (rel,idx) => (
-                    <li key = {"relListItem" + (idx+1)}>{rel}</li>
+                    <li key = {"relativeListItem" + (idx+1)}>{rel}</li>
                 ) )}
                </ol>
               
