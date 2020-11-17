@@ -3,7 +3,7 @@ import '../styles/App.css';
 
 class App extends Component {
     render() {
-    const relList = ["Father","Mother","Brother","Sister"]
+    const relList = ["Father","Mother","Brother","Sister"];
         return(
             <div id="main">
                {/* Do not remove the main div */}
